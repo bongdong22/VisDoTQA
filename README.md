@@ -1,6 +1,6 @@
 # VisDoT : Enhancing Visual Reasoning through Human-Like Interpretation Grounding and Decomposition of Thought
 
-This repository hosts the public **VisDoTQA** test set for chart-focused visual reasoning research.
+**VisDoTQA** is a public chart visual reasoning benchmark and dataset for evaluating multimodal reasoning on chart understanding, chart question answering, and visual interpretation grounding. This repository provides the official **VisDoTQA** test set introduced in *VisDoT: Enhancing Visual Reasoning through Human-Like Interpretation Grounding and Decomposition of Thought*.
 
 ## Overview
 
