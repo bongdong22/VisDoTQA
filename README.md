@@ -1,3 +1,23 @@
+---
+configs:
+- config_name: default
+  data_files:
+  - split: test
+    path: data/test.jsonl
+dataset_info:
+  features:
+  - name: imgname
+    dtype: string
+  - name: query
+    dtype: string
+  - name: label
+    dtype: string
+  - name: source
+    dtype: string
+  - name: image
+    dtype: image
+---
+
 # VisDoTQA
 
 Official public benchmark release for  
@@ -62,6 +82,7 @@ VisDoTQA is organized around four core perceptual task families:
 This release includes:
 
 - `data/VisDoTQA.json`
+- `data/test.jsonl`
 - `data/images/`
 
 Each record in `data/VisDoTQA.json` contains the following fields:
@@ -71,12 +92,15 @@ Each record in `data/VisDoTQA.json` contains the following fields:
 - `label`
 - `source`
 
+The Hugging Face dataset viewer uses `data/test.jsonl`, which contains the same QA rows plus an `image` column for rendering chart images in the table view.
+
 ### Field Description
 
 - `imgname`: image filename for the chart instance
 - `query`: benchmark question
 - `label`: ground-truth answer
 - `source`: VisDoTQA task category
+- `image`: relative image path used by the Hugging Face dataset viewer
 
 In this public release, the `source` field denotes the **VisDoTQA task category**:
 
@@ -101,6 +125,7 @@ VisDoTQA/
 ├── CITATION.cff
 └── data/
     ├── VisDoTQA.json
+    ├── test.jsonl
     └── images/
 ```
 
