@@ -1,0 +1,27 @@
+---
+pretty_name: VisDoTQA
+language:
+  - en
+license: unknown
+task_categories:
+  - visual-question-answering
+  - question-answering
+size_categories:
+  - 1K<n<10K
+source_datasets:
+  - original
+annotations_creators:
+  - machine-generated
+language_creators:
+  - machine-generated
+multilinguality:
+  - monolingual
+tags:
+  - chart
+  - chart-understanding
+  - multimodal
+  - vision-language
+  - reasoning
+  - synthetic
+  - benchmark
+---

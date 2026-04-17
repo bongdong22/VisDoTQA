@@ -1,7 +1,7 @@
 # VisDoTQA
 
 Official public benchmark release for  
-**VisDoT : Enhancing Visual Reasoning through Human-Like Interpretation Grounding and Decomposition of Thought**
+[*VisDoT : Enhancing Visual Reasoning through Human-Like Interpretation Grounding and Decomposition of Thought*](https://aclanthology.org/2026.findings-eacl.30/), with an additional mirror on [arXiv:2603.11631](https://arxiv.org/abs/2603.11631).
 
 VisDoTQA is a chart visual reasoning benchmark introduced in *VisDoT : Enhancing Visual Reasoning through Human-Like Interpretation Grounding and Decomposition of Thought*.
 
@@ -9,8 +9,9 @@ Large vision-language models often struggle to reliably ground visual primitives
 
 ## Links
 
-- [Paper (ACL Anthology)](https://aclanthology.org/2026.findings-eacl.30/)
-- [Paper (arXiv)](https://arxiv.org/abs/2509.18395)
+- [Paper (ACL Anthology, canonical)](https://aclanthology.org/2026.findings-eacl.30/)
+- [Paper (arXiv:2603.11631 mirror)](https://arxiv.org/abs/2603.11631)
+- [DOI](https://doi.org/10.18653/v1/2026.findings-eacl.30)
 - [GitHub Repository](https://github.com/bongdong22/VisDoTQA)
 - [Hugging Face Dataset](https://huggingface.co/datasets/bongdong/VisDoTQA)
 
@@ -126,10 +127,11 @@ In the paper, VisDoT is evaluated on ChartQA, ChartQAPro, and VisDoTQA. The repo
 
 ## Paper
 
-You can find our paper at the following links:
+The canonical publication record for this dataset is the ACL Anthology page below. We also provide the arXiv mirror for convenience.
 
-- [ACL Anthology](https://aclanthology.org/2026.findings-eacl.30/)
-- [arXiv](https://arxiv.org/abs/2509.18395)
+- [ACL Anthology (canonical)](https://aclanthology.org/2026.findings-eacl.30/)
+- [arXiv:2603.11631 (mirror)](https://arxiv.org/abs/2603.11631)
+- [DOI: 10.18653/v1/2026.findings-eacl.30](https://doi.org/10.18653/v1/2026.findings-eacl.30)
 
 ## Citation
 
