@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the associated paper."
+title: "VisDoTQA"
+type: dataset
+authors:
+  - family-names: "Lee"
+    given-names: "Eunsoo"
+  - family-names: "Lee"
+    given-names: "Jeongwoo"
+  - family-names: "Hong"
+    given-names: "Minki"
+  - family-names: "Choi"
+    given-names: "Jangho"
+  - family-names: "Kim"
+    given-names: "Jihie"
+url: "https://github.com/bongdong22/VisDoTQA"
+preferred-citation:
+  type: conference-paper
+  title: "VisDoT : Enhancing Visual Reasoning through Human-Like Interpretation Grounding and Decomposition of Thought"
+  authors:
+    - family-names: "Lee"
+      given-names: "Eunsoo"
+    - family-names: "Lee"
+      given-names: "Jeongwoo"
+    - family-names: "Hong"
+      given-names: "Minki"
+    - family-names: "Choi"
+      given-names: "Jangho"
+    - family-names: "Kim"
+      given-names: "Jihie"
+  year: 2026
+  conference-title: "Findings of the Association for Computational Linguistics: EACL 2026"
+  start: 610
+  end: 640
+  doi: "10.18653/v1/2026.findings-eacl.30"
+  url: "https://aclanthology.org/2026.findings-eacl.30/"
