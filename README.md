@@ -27,6 +27,13 @@ VisDoTQA is a chart visual reasoning benchmark introduced in *VisDoT : Enhancing
 
 Large vision-language models often struggle to reliably ground visual primitives in charts and align them with semantic references. VisDoT addresses this challenge through perception-grounded task design and decomposition-of-thought (DoT) reasoning, and VisDoTQA is introduced as a benchmark for evaluating these capabilities.
 
+## Links
+
+- [Paper (ACL Anthology)](https://aclanthology.org/2026.findings-eacl.30/)
+- [Paper (arXiv)](https://arxiv.org/abs/2509.18395)
+- [GitHub Repository](https://github.com/bongdong22/VisDoTQA)
+- [Hugging Face Dataset](https://huggingface.co/datasets/bongdong/VisDoTQA)
+
 ## Overview
 
 VisDoTQA is designed to evaluate **visual grounding** and **compositional reasoning** on chart images through four core task types:
