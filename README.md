@@ -1,23 +1,3 @@
----
-configs:
-- config_name: default
-  data_files:
-  - split: test
-    path: data/test.jsonl
-dataset_info:
-  features:
-  - name: imgname
-    dtype: string
-  - name: query
-    dtype: string
-  - name: label
-    dtype: string
-  - name: source
-    dtype: string
-  - name: image
-    dtype: image
----
-
 # VisDoTQA
 
 Official public benchmark release for  
